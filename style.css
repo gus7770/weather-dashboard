@@ -1,0 +1,64 @@
+body {
+    background-image: url('./lightning.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+h1 {
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(70,140,251,1) 50%, rgba(70,210,251,1) 100%);
+}
+
+#current-weather h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+#current-weather p {
+    margin: 0;
+    color: #555;
+}
+
+#forecast .card {
+    background-color: #2b2b2b;
+    color: #fff;
+    border: none;
+    width: 18%;
+    text-align: center;
+}
+
+#forecast .card h5 {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+#forecast .card p {
+    font-size: 0.9rem;
+}
+
+#history button {
+    width: 100%;
+    margin-bottom: 5px;
+    background-color: #ccc;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    text-align: left;
+}
+
+#history button:hover {
+    background-color: #888;
+}
+
+#history button:focus {
+    outline: none;
+    box-shadow: none;
+}
